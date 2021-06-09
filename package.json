@@ -1,0 +1,34 @@
+{
+  "name": "gulp-img2b64",
+  "version": "1.0.0",
+  "description": "Converter from an image file stream (Gulp) to base64",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedra/gulp-img2b64.git"
+  },
+  "keywords": [
+    "gulp",
+    "plugin",
+    "image",
+    "base64",
+    "converter"
+  ],
+  "author": {
+    "name": "BillRocha",
+    "email": "prbr@ymail.com",
+    "homepage": "http://billrocha.netlify.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedra/gulp-img2b64/issues"
+  },
+  "homepage": "https://github.com/pedra/gulp-img2b64#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "through2": "^4.0.2"
+  }
+}
