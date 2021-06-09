@@ -15,7 +15,7 @@ function gulpPlugin(arg) {
             var t = f[1] == 'jpg' ? 'jpeg' : f[1]
 
             var o = new gutil.File()
-            o.path = `${__dirname}/${n}.b64`
+            o.path = `${n}.b64`
             o.contents = Buffer.from(`data:image/${t};base64,` + file.contents.toString('base64'))
 
             ++c
